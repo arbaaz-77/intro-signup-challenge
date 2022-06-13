@@ -46,4 +46,4 @@ Users should be able to:
 ## Author
 
 - Website - [Arbaaz Sumar](https://www.arbaazsumar.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/arbaaz-77)
+- Frontend Mentor - [@arbaaz-77](https://www.frontendmentor.io/profile/arbaaz-77)
