@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+body {
+  font-size: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+  background-blend-mode: overlay;
+}
+
+.main {
+  display: flex;
+  width: 80%;
+}
+
+.left {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 4rem;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.subheading {
+  margin-top: 2rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.btn {
+  padding: 1rem 0;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.btn1 {
+  background-color: hsl(248, 32%, 49%);
+  color: white;
+  width: 80%;
+}
+
+.btn2 {
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 100%;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.red {
+  color: hsl(0, 100%, 74%);
+  cursor: pointer;
+}
+
+.terms {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(246, 25%, 77%);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: 80%;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.form input {
+  padding: 1rem 1.4rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.form input::placeholder {
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .left {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .form {
+    width: 100%;
+  }
+}
