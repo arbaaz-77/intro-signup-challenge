@@ -29,8 +29,7 @@ Users should be able to:
 ![](./screenshot.png)
 
 ### Links
-
-- Live Site URL: [Click here]([https://your-live-site-url.com](https://arbaaz-77.github.io/intro-signup-challenge/))
+- Live Site URL: [Live Site]((https://arbaaz-77.github.io/intro-signup-challenge/))
 
 ## My process
 
