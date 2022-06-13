@@ -30,8 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Click here]([https://your-live-site-url.com](https://arbaaz-77.github.io/intro-signup-challenge/))
 
 ## My process
 
